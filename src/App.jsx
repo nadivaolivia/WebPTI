@@ -1,4 +1,6 @@
 import Navbar from "./components/Navbar";
+import home from "./components/home";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
