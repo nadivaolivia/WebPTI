@@ -1,5 +1,6 @@
 import { useState } from "react";
 import LogoTi from "../assets/logo.png";
+import LogoPti from "../assets/logo_pti_baru.png";
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState (false);
   const [sidebarDropdownVisible, setSidebarDropdownVisible] = useState(false);
@@ -23,11 +24,11 @@ const handleDropdown = () => {
             <nav className="py-2 px-4 flex items-center
             justify-between">
                 <div>
-                    <img className="w-[60px] " src={LogoTi} alt="LogoTi" />
+                    <img className="w-[30px] " src={LogoPti} alt="LogoPTI" />
                     
                 </div>
            
-           <div className="hidden mmd:flex m-8 items-center gap-4 justify-center text-1xl">
+           <div className="hidden md:flex m-8 items-center gap-4 justify-center text-1xl">
             <a href="">Home</a>
             <a href="">Kabinet</a>
             <a href="">Tentang</a>
