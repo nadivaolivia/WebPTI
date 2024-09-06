@@ -5,7 +5,7 @@ import  Welcome  from "./components/Welcome";
 import Tentang from "./components/Tentang";
 import Dokumentasi from "./components/Dokumentasi";
 import Profil from "./components/Profil";
-
+import Footer from "./components/Footer";
 
 
 
@@ -34,6 +34,7 @@ function App() {
         <Tentang />
         <Dokumentasi />
         <Profil />
+        <Footer />
        
         
       </div>
